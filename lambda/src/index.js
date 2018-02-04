@@ -40,9 +40,8 @@ EchoSonos.prototype.onLaunch = function (launchRequest, session, response) {
 }
 
 EchoSonos.prototype.setEchoId = function (context) {
-    console.log("deviceId = " + context.System.device.deviceId);
-    if (context.System.device.deviceId !== undefined) {
-      EchoId = context.System.device.deviceId;
+    if (context.System.device["deviceId"] !== undefined) {
+        EchoId = context.System.device.deviceId;
     }
 }
 
