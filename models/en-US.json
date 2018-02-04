@@ -1,0 +1,4165 @@
+{
+	"interactionModel": {
+		"languageModel": {
+    "types": [
+      {
+        "name": "NAMES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "prince",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the fray",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the rolling stones",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "toad the wet sproket",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "KC and the sunshine band",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "john travolta and olivia newton john",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "DJ jazzy jeff and the fresh prince",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lola",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hello dolly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "love me tender",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fools gold",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "roberta flack killing me softly with his song",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "stevie wonder superstition",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "boston",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "full circle",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "PRESETS",
+        "values": [
+          {
+            "id": "DOWNSTAIRS",
+            "name": {
+              "value": "downstairs",
+              "synonyms": [
+                "den",
+                "living room",
+                "den area",
+                "living room area",
+                "downstairs area",
+                "home",
+                "house"
+              ]
+            }
+          },
+          {
+            "id": "WORK",
+            "name": {
+              "value": "work",
+              "synonyms": [
+                "work area",
+                "piano",
+                "piano area",
+                "computer",
+                "computer area",
+                "laptop",
+                "laptop area",
+                "laptop table",
+                "computer table",
+                "work"
+              ]
+            }
+          },
+          {
+            "id": "SHELF",
+            "name": {
+              "value": "shelf",
+              "synonyms": [
+                "corner",
+                "corner area",
+                "shelf",
+                "shelf area",
+                "shelves area",
+                "shelves"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "ROOMS",
+        "values": [
+          {
+            "id": "WORK",
+            "name": {
+              "value": "work",
+              "synonyms": [
+                "work area",
+                "piano",
+                "piano area",
+                "computer",
+                "computer area",
+                "laptop",
+                "laptop area",
+                "laptop table",
+                "computer table",
+                "work"
+              ]
+            }
+          },
+          {
+            "id": "SHELF",
+            "name": {
+              "value": "shelf",
+              "synonyms": [
+                "corner",
+                "corner area",
+                "shelf",
+                "shelf area",
+                "shelves area",
+                "shelves"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "SERVICES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "presets",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "library",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "apple",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "spotify",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "deezer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "elite",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "SXMCHANNELS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "2",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "4",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "5",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "6",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "7",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "8",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "9",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "10",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "11",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "12",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "13",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "14",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "15",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "16",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "17",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "18",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "19",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "20",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "21",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "22",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "23",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "24",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "25",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "26",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "27",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "28",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "29",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "30",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "31",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "32",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "33",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "34",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "35",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "36",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "37",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "38",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "39",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "40",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "41",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "42",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "43",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "44",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "45",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "46",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "47",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "48",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "49",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "50",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "51",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "52",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "53",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "54",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "55",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "56",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "57",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "58",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "59",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "60",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "61",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "62",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "63",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "64",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "65",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "66",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "67",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "68",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "69",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "70",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "71",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "72",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "73",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "74",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "76",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "77",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "78",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "79",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "80",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "81",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "82",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "83",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "84",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "85",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "88",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "90",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "91",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "93",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "94",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "95",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "96",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "97",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "98",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "99",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "100",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "101",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "102",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "105",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "106",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "108",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "109",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "110",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "111",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "112",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "113",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "114",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "115",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "116",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "117",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "118",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "119",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "120",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "121",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "122",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "123",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "124",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "125",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "126",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "127",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "128",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "129",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "130",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "131",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "141",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "142",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "143",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "144",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "146",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "147",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "148",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "152",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "153",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "154",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "155",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "157",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "158",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "162",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "163",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "165",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "166",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "167",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "168",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "169",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "170",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "171",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "172",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "173",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "174",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "206",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "207",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "208",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "209",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "210",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "300",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "301",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "302",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "310",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "312",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "313",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "314",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "316",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "330",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "340",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "350",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "370",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "400",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "450",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "455",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "470",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "700",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "703",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "713",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "715",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "716",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "720",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "721",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "726",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "730",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "741",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "742",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "745",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "750",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "751",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "752",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "755",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "756",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "758",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "759",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "761",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "762",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "763",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "764",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "765",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "766",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "767",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "768",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "770",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "771",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "772",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "773",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "774",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "775",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "776",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "777",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "778",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "779",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "780",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "781",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "790",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "791",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "794",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "795",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "796",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "797",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "798",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "SXMSTATIONS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "pop2K",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "velvet",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the coffee house",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the pulse",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "caliente",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the blend",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM love",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM hits 1",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "venus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "poptropolis",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "road trip radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the covers channel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "pitbulls globalization",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "50s on 5",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "60s on 6",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "70s on 7",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "neil diamond radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "elevations",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "80s on 8",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "90s on 9",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "elvis radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "e street radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "underground garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "pearl jam radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "grateful dead",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "radio margaritaville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "classic rewind",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "classic vinyl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "deep tracks",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the spectrum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "jam_on",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the loft",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "tom petty radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM rock hall radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "pettys buried treasure",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rockbar",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM turbo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM comes alive!",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the bridge",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "1st wave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lithium",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XMu",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "alt nation",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "octane",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ozzys boneyard",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hair nation",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "liquid metal",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "faction",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the joint",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "jason ellis",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM silk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "tiestos club life radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "red white and booze",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "backspin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hip hop nation",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "shade 45",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the heat",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM fly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "heart and soul",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "soul town",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the groove",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bpm",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "electric area",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM chill",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "studio 54 radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "utopia",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the highway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "y2Kountry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "prime country",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "willies roadhouse",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "outlaw country",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bluegrass junction",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "no shoes radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 2",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sways universe",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 4",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 5",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 6",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the village",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the message",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "kirk franklins praise",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "enlighten",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "watercolors",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "real jazz",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "spa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "escape",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BB kings bluesville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "siriusly sinatra",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "on broadway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "40s junction",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "met opera radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 7",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 8",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cinemagic",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "krishna das yoga radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 9",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM pops",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 10",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "symphony hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "aguila",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "carICIa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "viva",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "latidos",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "flow nacion",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "luna",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rumbon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "la kueva",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ESPN deportes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM nba radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM pga tour radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "mlb network radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM fantasy sports radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sportscenter",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "70s 80s pop",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "80s 90s pop",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "90s 2K pop",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "classic rock party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rockin frat party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hip hop party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "oldies party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "pop party mix",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "punk party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "new wave dance party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the girls room",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "holly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ESPN radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ESPN xtra",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "mad dog sports radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bleacher report radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "college sports nation",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM fc",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM nfl radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM nascar radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM nhl network radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM rush",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "howard 100",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "howard 101",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cnbc",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fox business",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fox news channel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fox news headlines 24 7",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CNN",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "HLN",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "MSNBC",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bloomberg radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BBC world service",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM insight",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "NPR now",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "PRX public radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "potus politics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM patriot",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM urban view",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM progress",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rural radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CNN en espanol",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CBC radio one",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fox news talk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "c span radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "kidz bop radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "kids place live",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "radio disney",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "france 24",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "theblaze radio network",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM patriot plus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM progress plus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "radio andy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ew radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM 106",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "today show radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM stars",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "KIIS los angeles",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "doctor radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "business radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Z100 NY",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "joel osteen radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the catholic channel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ewtn radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fAMIly talk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hur voices",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hbcu",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "byuradio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "road dog trucking",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "radioclassics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "canada laughs",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "opie radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "carlins corner",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SXM limited edition 11",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "vivid radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM preview",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sirius XM comedy greats",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "comedy central radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the foxxhole",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "comedy roundup",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "laugh usa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "raw dog comedy hits",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "korea today",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "en vivo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cristina radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "american latino radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CBC radio 3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ICI musique chansons",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "multicultural radio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ICI francocountry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "canada talks",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ICI premiere",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CBC country",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "canada 360 by AMI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "the verge",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "influence franco",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "el paisa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "iceberg",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "attitude franco",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "TOGGLES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "on",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "off",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AlbumIntent",
+        "samples": [
+          "play album {AlbumName} in the {Room}",
+          "play album {AlbumName} in {Room}",
+          "play album {AlbumName}"
+        ],
+        "slots": [
+          {
+            "name": "AlbumName",
+            "type": "AMAZON.MusicAlbum"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "ArtistIntent",
+        "samples": [
+          "play artist {ArtistName} in the {Room}",
+          "play artist {ArtistName} in {Room}",
+          "play artist {ArtistName}",
+          "play {ArtistName} in the {Room}",
+          "play {ArtistName} in {Room}",
+          "play {ArtistName}"
+        ],
+        "slots": [
+          {
+            "name": "ArtistName",
+            "type": "AMAZON.MusicGroup"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "ChangeRoomAndServiceIntent",
+        "samples": [
+          "change room to {Room} and music to {Service}",
+          "change music to {Service} and room to {Room}",
+          "change room to the {Room} and music to {Service}",
+          "change music to {Service} and room to the {Room}",
+          "change room to {Room} and service to {Service}",
+          "change service to {Service} and room to {Room}",
+          "change room to the {Room} and service to {Service}",
+          "change service to {Service} and room to the {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          },
+          {
+            "name": "Service",
+            "type": "SERVICES"
+          }
+        ]
+      },
+      {
+        "name": "ChangeRoomIntent",
+        "samples": [
+          "change room to {Room}",
+          "change room to the {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "ChangeServiceIntent",
+        "samples": [
+          "change music to {Service}",
+          "change service to {Service}"
+        ],
+        "slots": [
+          {
+            "name": "Service",
+            "type": "SERVICES"
+          }
+        ]
+      },
+      {
+        "name": "ClearQueueIntent",
+        "samples": [
+          "clear the queue in {Room}",
+          "clear the queue in the {Room}",
+          "clear queue in {Room}",
+          "clear queue in the {Room}",
+          "clear playlist in {Room}",
+          "clear playlist in the {Room}",
+          "clear the queue",
+          "clear queue",
+          "clear playlist"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "CrossfadeIntent",
+        "samples": [
+          "turn {Toggle} crossfade in {Room}",
+          "turn {Toggle} crossfade in the {Room}",
+          "turn crossfade {Toggle} in {Room}",
+          "turn crossfade {Toggle} in the {Room}",
+          "crossfade {Toggle} in {Room}",
+          "crossfade {Toggle} in the {Room}",
+          "turn {Toggle} crossfade",
+          "turn crossfade {Toggle}",
+          "crossfade {Toggle}"
+        ],
+        "slots": [
+          {
+            "name": "Toggle",
+            "type": "TOGGLES"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "FavoriteIntent",
+        "samples": [
+          "favorite {Preset} in {Room}",
+          "favorite {Preset} in the {Room}",
+          "play favorite {Preset} in {Room}",
+          "play favorite {Preset} in the {Room}",
+          "start favorite {Preset} in {Room}",
+          "start favorite {Preset} in the {Room}",
+          "favorite {Preset}",
+          "play favorite {Preset}",
+          "start favorite {Preset}"
+        ],
+        "slots": [
+          {
+            "name": "Preset",
+            "type": "PRESETS"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "JoinGroupIntent",
+        "samples": [
+          "join {JoiningRoom} to {PlayingRoom}",
+          "join the {JoiningRoom} to {PlayingRoom}",
+          "join {JoiningRoom} to the {PlayingRoom}",
+          "join the {JoiningRoom} to the {PlayingRoom}",
+          "join {JoiningRoom} with {PlayingRoom}",
+          "join {JoiningRoom} with the {PlayingRoom}",
+          "join {JoiningRoom} into {PlayingRoom}",
+          "join {JoiningRoom} into the {PlayingRoom}",
+          "join the {JoiningRoom} with {PlayingRoom}",
+          "join the {JoiningRoom} with the {PlayingRoom}",
+          "join the {JoiningRoom} into {PlayingRoom}",
+          "join the {JoiningRoom} into the {PlayingRoom}",
+          "group {JoiningRoom} to {PlayingRoom}",
+          "group {JoiningRoom} to the {PlayingRoom}",
+          "group {JoiningRoom} with {PlayingRoom}",
+          "group {JoiningRoom} with the {PlayingRoom}",
+          "group {JoiningRoom} into {PlayingRoom}",
+          "group {JoiningRoom} into the {PlayingRoom}",
+          "group the {JoiningRoom} to {PlayingRoom}",
+          "group the {JoiningRoom} to the {PlayingRoom}",
+          "group the {JoiningRoom} with {PlayingRoom}",
+          "group the {JoiningRoom} with the {PlayingRoom}",
+          "group the {JoiningRoom} into {PlayingRoom}",
+          "group the {JoiningRoom} into the {PlayingRoom}",
+          "merge {JoiningRoom} to {PlayingRoom}",
+          "merge {JoiningRoom} to the {PlayingRoom}",
+          "merge {JoiningRoom} with {PlayingRoom}",
+          "merge {JoiningRoom} with the {PlayingRoom}",
+          "merge {JoiningRoom} into {PlayingRoom}",
+          "merge {JoiningRoom} into the {PlayingRoom}",
+          "merge the {JoiningRoom} to {PlayingRoom}",
+          "merge the {JoiningRoom} to the {PlayingRoom}",
+          "merge the {JoiningRoom} with {PlayingRoom}",
+          "merge the {JoiningRoom} with the {PlayingRoom}",
+          "merge the {JoiningRoom} into {PlayingRoom}",
+          "merge the {JoiningRoom} into the {PlayingRoom}",
+          "combine {JoiningRoom} to {PlayingRoom}",
+          "combine {JoiningRoom} to the {PlayingRoom}",
+          "combine {JoiningRoom} with {PlayingRoom}",
+          "combine {JoiningRoom} with the {PlayingRoom}",
+          "combine {JoiningRoom} into {PlayingRoom}",
+          "combine {JoiningRoom} into the {PlayingRoom}",
+          "combine the {JoiningRoom} to {PlayingRoom}",
+          "combine the {JoiningRoom} to the {PlayingRoom}",
+          "combine the {JoiningRoom} with {PlayingRoom}",
+          "combine the {JoiningRoom} with the {PlayingRoom}",
+          "combine the {JoiningRoom} into {PlayingRoom}",
+          "combine the {JoiningRoom} into the {PlayingRoom}"
+        ],
+        "slots": [
+          {
+            "name": "JoiningRoom",
+            "type": "ROOMS"
+          },
+          {
+            "name": "PlayingRoom",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "LineInIntent",
+        "samples": [
+          "{Room} to use line in",
+          "set {Room} to line in",
+          "set the {Room} to line in",
+          "{Room} use line-in",
+          "{Room} to use line-in",
+          "set {Room} to line-in",
+          "set the {Room} to line-in",
+          "set {Room} line in to {LineIn}",
+          "set the {Room} line in to {LineIn}",
+          "set {Room} line in to the {LineIn}",
+          "set the {Room} line in to the {LineIn}",
+          "set {Room} line-in to {LineIn}",
+          "set the {Room} line-in to {LineIn}",
+          "set {Room} line-in to the {LineIn}",
+          "set the {Room} line-in to the {LineIn}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          },
+          {
+            "name": "LineIn",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "MusicRadioIntent",
+        "samples": [
+          "play {ArtistName} radio in the {Room}",
+          "play {ArtistName} radio in {Room}",
+          "play {ArtistName} radio"
+        ],
+        "slots": [
+          {
+            "name": "ArtistName",
+            "type": "AMAZON.MusicGroup"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "MuteIntent",
+        "samples": [
+          "mute in {Room}",
+          "mute in the {Room}",
+          "mute {Room}",
+          "mute the {Room}",
+          "mute",
+          "quiet",
+          "quiet in {Room}",
+          "quiet in the {Room}",
+          "quiet {Room}",
+          "quiet the {Room}",
+          "hush",
+          "hush in {Room}",
+          "hush in the {Room}",
+          "hush {Room}",
+          "hush the {Room}",
+          "silence",
+          "silence in {Room}",
+          "silence in the {Room}",
+          "silence {Room}",
+          "silence the {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "NextTrackIntent",
+        "samples": [
+          "go to next track in {Room}",
+          "go to next track in the {Room}",
+          "go to the next track in {Room}",
+          "go to the next track in the {Room}",
+          "skip to next track in {Room}",
+          "skip to next track in the {Room}",
+          "skip to the next track in {Room}",
+          "skip to the next track in the {Room}",
+          "skip in {Room}",
+          "skip in the {Room}",
+          "next in {Room}",
+          "next in the {Room}",
+          "next track in {Room}",
+          "next track in the {Room}",
+          "next song in {Room}",
+          "next song in the {Room}",
+          "skip this track in {Room}",
+          "skip this track in the {Room}",
+          "skip song in {Room}",
+          "skip song in the {Room}",
+          "skip this song in {Room}",
+          "skip this song in the {Room}",
+          "go to next track",
+          "go to the next track",
+          "skip to next track",
+          "skip to the next track",
+          "skip",
+          "next",
+          "next track",
+          "next song",
+          "skip this track",
+          "skip song",
+          "skip this song"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PandoraMusicIntent",
+        "samples": [
+          "tune to pandora {Name} in the {Room}",
+          "tune to pandora {Name} in {Room}",
+          "tune to pandora {Name}"
+        ],
+        "slots": [
+          {
+            "name": "Name",
+            "type": "NAMES"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PandoraThumbsDownIntent",
+        "samples": [
+          "give the current song in the {Room} a thumbs down",
+          "give the current song a thumbs down in the {Room}",
+          "give this song a thumbs down in the {Room}",
+          "give the current song a thumbs down",
+          "give this song a thumbs down"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PandoraThumbsUpIntent",
+        "samples": [
+          "give the current song in the {Room} a thumbs up",
+          "give the current song a thumbs up in the {Room}",
+          "give this song a thumbs up in the {Room}",
+          "give the current song a thumbs up",
+          "give this song a thumbs up"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PauseAllIntent",
+        "samples": [
+          "pause all",
+          "pause all the music",
+          "stop all",
+          "stop all the music"
+        ],
+        "slots": []
+      },
+      {
+        "name": "PauseIntent",
+        "samples": [
+          "pause in the {Room}",
+          "pause in {Room}",
+          "pause the music in {Room}",
+          "stop in the {Room}",
+          "stop in {Room}",
+          "stop playing in the {Room}",
+          "stop playing in {Room}",
+          "stop the music in {Room}",
+          "pause",
+          "pause the music",
+          "stop",
+          "stop the music"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PlayInRoomIntent",
+        "samples": [
+          "play in {Room}",
+          "play in the {Room}",
+          "to play in {Room}",
+          "to play in the {Room}",
+          "also play in {Room}",
+          "also play in the {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PlaylistIntent",
+        "samples": [
+          "playlist {Preset} in {Room}",
+          "playlist {Preset} in the {Room}",
+          "play playlist {Preset} in {Room}",
+          "play playlist {Preset} in the {Room}",
+          "start playlist {Preset} in {Room}",
+          "start playlist {Preset} in the {Room}",
+          "playlist {Preset}",
+          "play playlist {Preset}",
+          "start playlist {Preset}"
+        ],
+        "slots": [
+          {
+            "name": "Preset",
+            "type": "PRESETS"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PlayMoreByArtistIntent",
+        "samples": [
+          "play more by this artist in the {Room}",
+          "play more songs by this artist in the {Room}",
+          "play more tracks by this artist in the {Room}",
+          "play more music by this artist in the {Room}",
+          "play more by this artist",
+          "play more songs by this artist",
+          "play more tracks by this artist",
+          "play more music by this artist"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PlayMoreLikeTrackIntent",
+        "samples": [
+          "play more like this in the {Room}",
+          "play more songs like this in the {Room}",
+          "play more tracks like this in the {Room}",
+          "play more music like this in the {Room}",
+          "play more like this",
+          "play more songs like this",
+          "play more tracks like this",
+          "play more music like this"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PlayPresetIntent",
+        "samples": [
+          "play preset {Preset}",
+          "setup preset {Preset}",
+          "setup {Preset}",
+          "organize {Preset}",
+          "create {Preset}",
+          "set up {Preset}",
+          "set up preset {Preset}",
+          "set up the preset {Preset}",
+          "set up the {Preset}",
+          "create the {Preset}",
+          "organize the {Preset}"
+        ],
+        "slots": [
+          {
+            "name": "Preset",
+            "type": "PRESETS"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "PreviousTrackIntent",
+        "samples": [
+          "go to previous track in {Room}",
+          "go to previous track in the {Room}",
+          "go to the previous track in {Room}",
+          "go to the previous track in the {Room}",
+          "go to the last song in {Room}",
+          "go to the last song in the {Room}",
+          "go back in {Room}",
+          "go back in the {Room}",
+          "go back to the previous track in {Room}",
+          "go back to the previous track in the {Room}",
+          "last track in {Room}",
+          "last track in the {Room}",
+          "last song in {Room}",
+          "last song in the {Room}",
+          "previous track in {Room}",
+          "previous track in the {Room}",
+          "previous song in {Room}",
+          "previous song in the {Room}",
+          "go to previous track",
+          "go to the previous track",
+          "go to the last song",
+          "go back",
+          "go back to the previous track",
+          "last track",
+          "last song",
+          "previous track",
+          "previous song"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "RepeatIntent",
+        "samples": [
+          "turn {Toggle} repeat in {Room}",
+          "turn {Toggle} repeat in the {Room}",
+          "turn repeat {Toggle} in {Room}",
+          "turn repeat {Toggle} in the {Room}",
+          "repeat {Toggle} in {Room}",
+          "repeat {Toggle} in the {Room}",
+          "turn {Toggle} repeat",
+          "turn repeat {Toggle}",
+          "repeat {Toggle}"
+        ],
+        "slots": [
+          {
+            "name": "Toggle",
+            "type": "TOGGLES"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "ResumeAllIntent",
+        "samples": [
+          "resume all",
+          "continue all",
+          "continue playing all",
+          "continue playing all the music"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ResumeIntent",
+        "samples": [
+          "continue the {Room}",
+          "continue in the {Room}",
+          "continue the music in {Room}",
+          "continue the music in the {Room}",
+          "continue playing the {Room}",
+          "continue playing in the {Room}",
+          "continue playing the music in {Room}",
+          "continue playing the music in the {Room}",
+          "resume the {Room}",
+          "resume in the {Room}",
+          "resume the music in {Room}",
+          "resume the music in the {Room}",
+          "continue",
+          "continue the music",
+          "continue playing",
+          "resume",
+          "resume the music"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "SetVolumeIntent",
+        "samples": [
+          "set volume to {Percent} in {Room}",
+          "set volume to {Percent} percent in {Room}",
+          "set volume to {Percent} in the {Room}",
+          "set volume to {Percent} percent in the {Room}",
+          "change volume to {Percent} in {Room}",
+          "change volume to {Percent} percent in {Room}",
+          "change volume to {Percent} in the {Room}",
+          "change volume to {Percent} percent in the {Room}",
+          "change the volume to {Percent} in {Room}",
+          "change the volume to {Percent} percent in {Room}",
+          "change the volume to {Percent} in the {Room}",
+          "change the volume to {Percent} percent in the {Room}",
+          "turn it up to {Percent} in {Room}",
+          "turn it up to {Percent} percent in {Room}",
+          "turn it up to {Percent} in the {Room}",
+          "turn it up to {Percent} percent in the {Room}",
+          "turn it down to {Percent} in {Room}",
+          "turn it down to {Percent} percent in {Room}",
+          "turn it down to {Percent} in the {Room}",
+          "turn it down to {Percent} percent in the {Room}",
+          "set volume to {Percent}",
+          "set volume to {Percent} percent",
+          "change volume to {Percent}",
+          "change volume to {Percent} percent",
+          "change the volume to {Percent}",
+          "change the volume to {Percent} percent",
+          "turn it up to {Percent}",
+          "turn it up to {Percent} percent",
+          "turn it down to {Percent}",
+          "turn it down to {Percent} percent"
+        ],
+        "slots": [
+          {
+            "name": "Percent",
+            "type": "AMAZON.NUMBER"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "ShuffleIntent",
+        "samples": [
+          "turn {Toggle} shuffle in {Room}",
+          "turn {Toggle} shuffle in the {Room}",
+          "turn shuffle {Toggle} in {Room}",
+          "turn shuffle {Toggle} in the {Room}",
+          "shuffle {Toggle} in {Room}",
+          "shuffle {Toggle} in the {Room}",
+          "turn {Toggle} shuffle",
+          "turn shuffle {Toggle}",
+          "shuffle {Toggle}"
+        ],
+        "slots": [
+          {
+            "name": "Toggle",
+            "type": "TOGGLES"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "SiriusXMChannelIntent",
+        "samples": [
+          "start sirius XM channel {Channel} in the {Room}",
+          "start sirius XM channel {Channel}",
+          "tune to sirius XM channel {Channel} in the {Room}",
+          "tune to sirius XM channel {Channel}"
+        ],
+        "slots": [
+          {
+            "name": "Channel",
+            "type": "SXMCHANNELS"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "SiriusXMStationIntent",
+        "samples": [
+          "start sirius XM {Station} in the {Room}",
+          "start sirius XM {Station}",
+          "tune to sirius XM {Station} in the {Room}",
+          "tune to sirius XM {Station}"
+        ],
+        "slots": [
+          {
+            "name": "Station",
+            "type": "SXMSTATIONS"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "TrackIntent",
+        "samples": [
+          "play track {TrackName} in the {Room}",
+          "play track {TrackName} in {Room}",
+          "play the song {TrackName} in {Room}",
+          "play the song {TrackName} in the {Room}",
+          "play track {TrackName}"
+        ],
+        "slots": [
+          {
+            "name": "TrackName",
+            "type": "AMAZON.MusicRecording"
+          },
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "UngroupIntent",
+        "samples": [
+          "ungroup {Room}",
+          "ungroup the {Room}",
+          "isolate {Room}",
+          "isolate the {Room}",
+          "remove {Room}",
+          "remove the {Room}",
+          "drop {Room}",
+          "drop the {Room}",
+          "release {Room}",
+          "release the {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "UnmuteIntent",
+        "samples": [
+          "unmute in {Room}",
+          "unmute in the {Room}",
+          "unmute {Room}",
+          "unmute the {Room}",
+          "unmute"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "VolumeDownIntent",
+        "samples": [
+          "turn it down in {Room}",
+          "turn it down in the {Room}",
+          "turn the volume down in {Room}",
+          "turn the volume down in the {Room}",
+          "softer in {Room}",
+          "softer in the {Room}",
+          "quieter in {Room}",
+          "quieter in the {Room}",
+          "volume down in {Room}",
+          "volume down in the {Room}",
+          "lower volume in the {Room}",
+          "lower volume in {Room}",
+          "decrease volume in the {Room}",
+          "decrease volume in {Room}",
+          "turn it down",
+          "turn the volume down",
+          "softer",
+          "quieter",
+          "volume down",
+          "lower volume",
+          "decrease volume"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "VolumeUpIntent",
+        "samples": [
+          "turn it up in {Room}",
+          "turn it up in the {Room}",
+          "turn the volume up in {Room}",
+          "turn the volume up in the {Room}",
+          "louder in {Room}",
+          "louder in the {Room}",
+          "volume up in {Room}",
+          "volume up in the {Room}",
+          "raise volume in the {Room}",
+          "raise volume in {Room}",
+          "increase volume in the {Room}",
+          "increase volume in {Room}",
+          "turn it up",
+          "turn the volume up",
+          "louder",
+          "volume up",
+          "raise volume",
+          "increase volume"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      },
+      {
+        "name": "WhatsPlayingIntent",
+        "samples": [
+          "what's playing",
+          "what song is this",
+          "what band is this",
+          "who's playing",
+          "what am i hearing"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "ROOMS"
+          }
+        ]
+      }
+    ],
+    "invocationName": "beats"
+  }
+	}
+}

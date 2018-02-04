@@ -344,7 +344,25 @@ MuteIntent mute in the {Room}
 MuteIntent mute {Room}
 MuteIntent mute the {Room}
 
+MuteIntent quiet in {Room}
+MuteIntent quiet in the {Room}
+MuteIntent quiet {Room}
+MuteIntent quiet the {Room}
+
+MuteIntent hush in {Room}
+MuteIntent hush in the {Room}
+MuteIntent hush {Room}
+MuteIntent hush the {Room}
+
+MuteIntent silence in {Room}
+MuteIntent silence in the {Room}
+MuteIntent silence {Room}
+MuteIntent silence the {Room}
+
 MuteIntent mute
+MuteIntent quiet
+MuteIntent hush
+MuteIntent silence
 
 UnmuteIntent unmute in {Room}
 UnmuteIntent unmute in the {Room}
@@ -387,14 +405,75 @@ CrossfadeIntent turn crossfade {Toggle}
 CrossfadeIntent crossfade {Toggle}
 
 JoinGroupIntent join {JoiningRoom} to {PlayingRoom}
-JoinGroupIntent join the {JoiningRoom} to {PlayingRoom}
 JoinGroupIntent join {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent join {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent join {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent join {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent join {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent join the {JoiningRoom} to {PlayingRoom}
 JoinGroupIntent join the {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent join the {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent join the {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent join the {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent join the {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent group {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent group {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent group {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent group {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent group {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent group {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent group the {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent group the {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent group the {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent group the {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent group the {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent group the {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent merge {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent merge {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent merge {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent merge {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent merge {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent merge {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent merge the {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent merge the {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent merge the {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent merge the {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent merge the {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent merge the {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent combine {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent combine {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent combine {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent combine {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent combine {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent combine {JoiningRoom} into the {PlayingRoom}
+
+JoinGroupIntent combine the {JoiningRoom} to {PlayingRoom}
+JoinGroupIntent combine the {JoiningRoom} to the {PlayingRoom}
+JoinGroupIntent combine the {JoiningRoom} with {PlayingRoom}
+JoinGroupIntent combine the {JoiningRoom} with the {PlayingRoom}
+JoinGroupIntent combine the {JoiningRoom} into {PlayingRoom}
+JoinGroupIntent combine the {JoiningRoom} into the {PlayingRoom}
+
+UngroupIntent isolate {Room}
+UngroupIntent isolate the {Room}
 
 UngroupIntent ungroup {Room}
 UngroupIntent ungroup the {Room}
-UngroupIntent isolate {Room}
-UngroupIntent isolate the {Room}
+
+UngroupIntent remove {Room}
+UngroupIntent remove the {Room}
+
+UngroupIntent drop {Room}
+UngroupIntent drop the {Room}
+
+UngroupIntent release {Room}
+UngroupIntent release the {Room}
 
 PlayInRoomIntent play in {Room}
 PlayInRoomIntent play in the {Room}

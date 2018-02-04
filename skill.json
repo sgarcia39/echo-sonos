@@ -1,0 +1,30 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa tell beats to set up the Living Room",
+            "Alexa tell beats to play Kendrick Lamar",
+            "Alexa tell beats to lower the volume"
+          ],
+          "name": "Custom Sonos Integration",
+          "description": "see name..."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Exploratory Sonos Integration",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/src"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
