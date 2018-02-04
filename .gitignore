@@ -2,3 +2,4 @@
 options.js
 settings.json
 *.zip
+*/node_modules/*
