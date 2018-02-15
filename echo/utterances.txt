@@ -489,7 +489,7 @@ LineInIntent {Room} use line-in
 LineInIntent {Room} to use line-in
 LineInIntent set {Room} to line-in
 LineInIntent set the {Room} to line-in
-  
+
 LineInIntent set {Room} line in to {LineIn}
 LineInIntent set the {Room} line in to {LineIn}
 LineInIntent set {Room} line in to the {LineIn}

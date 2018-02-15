@@ -2,7 +2,7 @@
     "intents": [
 
     {
-      "intent": "FinishedIntent",
+      "name": "FinishedIntent",
       "slots": [
         {
           "name": "Ending",
@@ -12,7 +12,7 @@
     },
  
     {
-      "intent": "AlbumIntent",
+      "name": "AlbumIntent",
       "slots": [
         {
             "name": "AlbumName",
@@ -26,7 +26,7 @@
     },
 
     {
-      "intent": "TrackIntent",
+      "name": "TrackIntent",
       "slots": [
         {
             "name": "TrackName",
@@ -40,7 +40,7 @@
     },
 
     {
-      "intent": "ArtistIntent",
+      "name": "ArtistIntent",
       "slots": [
         {
             "name": "ArtistName",
@@ -54,7 +54,7 @@
     },
 
     {
-      "intent": "MusicRadioIntent",
+      "name": "MusicRadioIntent",
       "slots": [
         {
             "name": "ArtistName",
@@ -68,7 +68,7 @@
     },
 
     {
-      "intent": "PlayMoreByArtistIntent",
+      "name": "PlayMoreByArtistIntent",
       "slots": [
         {
             "name": "Room",
@@ -78,7 +78,7 @@
     },
   
     {
-      "intent": "PlayMoreLikeTrackIntent",
+      "name": "PlayMoreLikeTrackIntent",
       "slots": [
         {
             "name": "Room",
@@ -88,7 +88,7 @@
     },
       
     {  
-      "intent": "SiriusXMStationIntent",
+      "name": "SiriusXMStationIntent",
       "slots": [
         {
             "name": "Station",
@@ -102,7 +102,7 @@
     },
       
     {  
-      "intent": "SiriusXMChannelIntent",
+      "name": "SiriusXMChannelIntent",
       "slots": [
         {
             "name": "Channel",
@@ -116,7 +116,7 @@
     },
       
     {
-      "intent": "PandoraMusicIntent",
+      "name": "PandoraMusicIntent",
       "slots": [
         {
             "name": "Name",
@@ -130,7 +130,7 @@
     },
    
     {
-      "intent": "PandoraThumbsUpIntent",
+      "name": "PandoraThumbsUpIntent",
       "slots": [
         {
             "name": "Room",
@@ -140,7 +140,7 @@
     },
     
     {
-      "intent": "PandoraThumbsDownIntent",
+      "name": "PandoraThumbsDownIntent",
       "slots": [
         {
             "name": "Room",
@@ -150,7 +150,7 @@
     },
       
     {
-      "intent": "PlayPresetIntent",
+      "name": "PlayPresetIntent",
       "slots": [
         {
             "name": "Preset",
@@ -164,7 +164,7 @@
     },
   
     {
-      "intent": "PlaylistIntent",
+      "name": "PlaylistIntent",
       "slots": [
         {
             "name": "Preset",
@@ -178,7 +178,7 @@
     },
   
     {
-      "intent": "FavoriteIntent",
+      "name": "FavoriteIntent",
       "slots": [
         {
             "name": "Preset",
@@ -192,7 +192,7 @@
     },
 
     {
-      "intent": "ChangeRoomIntent",
+      "name": "ChangeRoomIntent",
       "slots": [
         {
             "name": "Room",
@@ -202,7 +202,7 @@
     },
     
     {
-      "intent": "ChangeServiceIntent",
+      "name": "ChangeServiceIntent",
       "slots": [
         {
             "name": "Service",
@@ -212,7 +212,7 @@
     },
     
     {
-      "intent": "ChangeRoomAndServiceIntent",
+      "name": "ChangeRoomAndServiceIntent",
       "slots": [
         {
             "name": "Room",
@@ -226,7 +226,7 @@
     },
     
     {
-      "intent": "PauseIntent",
+      "name": "PauseIntent",
       "slots": [
         {
             "name": "Room",
@@ -236,11 +236,11 @@
     },
     
     {
-      "intent": "PauseAllIntent"
+      "name": "PauseAllIntent"
     },
    
     {
-      "intent": "ResumeIntent",
+      "name": "ResumeIntent",
       "slots": [
          {
             "name": "Room",
@@ -250,11 +250,11 @@
     },
     
     {
-      "intent": "ResumeAllIntent"
+      "name": "ResumeAllIntent"
     },
 
     {
-      "intent": "VolumeDownIntent",
+      "name": "VolumeDownIntent",
       "slots": [
         {
             "name": "Room",
@@ -264,7 +264,7 @@
     },
     
     {
-      "intent": "VolumeUpIntent",
+      "name": "VolumeUpIntent",
       "slots": [
         {
             "name": "Room",
@@ -274,7 +274,7 @@
     },
 
     {
-      "intent": "SetVolumeIntent",
+      "name": "SetVolumeIntent",
       "slots": [
         {
             "name": "Percent",
@@ -288,7 +288,7 @@
     },
   
     {
-      "intent": "NextTrackIntent",
+      "name": "NextTrackIntent",
       "slots": [
         {
             "name": "Room",
@@ -298,7 +298,7 @@
     },
   
     {
-      "intent": "PreviousTrackIntent",
+      "name": "PreviousTrackIntent",
       "slots": [
         {
             "name": "Room",
@@ -308,7 +308,7 @@
     },
 
     {
-      "intent": "ClearQueueIntent",
+      "name": "ClearQueueIntent",
       "slots": [
         {
             "name": "Room",
@@ -319,7 +319,7 @@
 
    
     {
-      "intent": "WhatsPlayingIntent",
+      "name": "WhatsPlayingIntent",
       "slots": [
         {
             "name": "Room",
@@ -329,7 +329,7 @@
     },
 
     {
-      "intent": "MuteIntent",
+      "name": "MuteIntent",
       "slots": [
         {
             "name": "Room",
@@ -339,7 +339,7 @@
     },
 
     {
-      "intent": "UnmuteIntent",
+      "name": "UnmuteIntent",
       "slots": [
         {
             "name": "Room",
@@ -349,7 +349,7 @@
     },
 
     {
-      "intent":  "RepeatIntent",
+      "name":  "RepeatIntent",
       "slots": [
         {
             "name": "Toggle",
@@ -363,7 +363,7 @@
     },
 
     {
-      "intent":  "ShuffleIntent",
+      "name":  "ShuffleIntent",
       "slots": [
         {
             "name": "Toggle",
@@ -377,7 +377,7 @@
     },
 
     {
-      "intent":  "CrossfadeIntent",
+      "name":  "CrossfadeIntent",
       "slots": [
         {
             "name": "Toggle",
@@ -391,7 +391,7 @@
     },
     
     {
-      "intent": "JoinGroupIntent",
+      "name": "JoinGroupIntent",
       "slots": [
         {
           "name": "JoiningRoom",
@@ -405,7 +405,7 @@
     },
     
     {
-      "intent" : "UngroupIntent",
+      "name" : "UngroupIntent",
       "slots" : [
         {
           "name" : "Room",
@@ -415,7 +415,7 @@
     },
     
     {
-      "intent" : "PlayInRoomIntent",
+      "name" : "PlayInRoomIntent",
       "slots" : [
         {
           "name" : "Room",
@@ -425,7 +425,7 @@
     },
 
     {
-      "intent":  "LineInIntent",
+      "name":  "LineInIntent",
       "slots": [
         {
             "name": "Room",

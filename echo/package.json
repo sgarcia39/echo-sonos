@@ -1,0 +1,15 @@
+{
+  "name": "echo-sonos-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+  	"start": "node build.js",
+    "build": "node build.js"
+  },
+  "author": "Steven Garcia <s.garcia39@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  	"json5": "^0.5.1"
+  }
+}
