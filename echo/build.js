@@ -3,8 +3,6 @@
 const exec = require("child_process").exec;
 const fs = require("fs");
 const path = require("path");
-// const JSON5 = require("JSON5");
-const JSON5 = JSON;
 
 const processArguments = process.argv.slice(2);
 const directoryPath = __dirname;
@@ -25,19 +23,19 @@ const intentNameKey = "name";
 const importObject = {};
 const exportObject = {};
 
-const loadTypes = function() {
+const importTypes = function() {
     const fileContent = fs.readFileSync(typesPath);
-    const parsedContent = JSON5.parse(fileContent);
+    const parsedContent = JSON.parse(fileContent);
     importObject[typesKey] = parsedContent;
 };
 
-const loadIntents = function() {
+const importIntents = function() {
     const fileContent = fs.readFileSync(intentsPath);
-    const parsedContent = JSON5.parse(fileContent);
+    const parsedContent = JSON.parse(fileContent);
     importObject[intentsKey] = parsedContent;
 };
 
-const loadUtterances = function() {
+const importUtterances = function() {
     const fileContent = fs.readFileSync(utterancesPath, {encoding: "utf8"});
     importObject[samplesKey] = fileContent;
 };
@@ -80,16 +78,21 @@ const buildIntents = function() {
     exportObject[interactionModelKey][languageModelKey][intentsKey] = intentsArray;
 };
 
+
+const exportModel = function() {
+    console.log("interactionModel: " + JSON.stringify(exportObject));
+};
+
 const start = function() {
-    loadTypes();
-    loadIntents();
-    loadUtterances();
+    importTypes();
+    importIntents();
+    importUtterances();
 
     buildCore();
     buildTypes();
     buildIntents();
 
-    console.log("export: " + JSON.stringify(exportObject));
+    exportModel();
 };
 
 start();
