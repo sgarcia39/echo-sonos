@@ -9,6 +9,7 @@ const directoryPath = __dirname;
 const typesPath = path.join(directoryPath, "types.json");
 const intentsPath = path.join(directoryPath, "intents.json");
 const utterancesPath = path.join(directoryPath, "utterances.txt");
+const modelPath = path.join(directoryPath, "../models/en-US.json");
 
 const typesKey = "types";
 const intentsKey = "intents";
@@ -43,10 +44,9 @@ const importUtterances = function() {
 const buildCore = function() {
     exportObject[interactionModelKey] = {};
     exportObject[interactionModelKey][languageModelKey] = {};
-    exportObject[interactionModelKey][invocationNameKey] = invocationNameValue;
+    exportObject[interactionModelKey][languageModelKey][invocationNameKey] = invocationNameValue;
 };
 
-// TODO: Implement custom synonyms
 const buildTypes = function() {
     const typesArray = JSON.parse(JSON.stringify(importObject[typesKey]));
     exportObject[interactionModelKey][languageModelKey][typesKey] = typesArray;
@@ -80,7 +80,7 @@ const buildIntents = function() {
 
 
 const exportModel = function() {
-    console.log("interactionModel: " + JSON.stringify(exportObject));
+    fs.writeFileSync(modelPath, JSON.stringify(exportObject, null, 2), {encoding: "utf8"});
 };
 
 const start = function() {

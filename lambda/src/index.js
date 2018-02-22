@@ -69,7 +69,7 @@ EchoSonos.prototype.intentHandlers = {
     },
 
     ArtistIntent: function (intent, session, response) {
-        console.log("ArtistIntent received for room " + intent.slots.Room.value);
+        console.log("ArtistIntent received for room " + JSON.stringify(intent));
         loadCurrentRoomAndService(EchoId, intent.slots.Room.value, function(room, service) {
             musicHandler(room, service, sonosProxy.ContentType.Artist, intent.slots.ArtistName.value, response);
         });

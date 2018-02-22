@@ -1,14 +1,5 @@
 [
   {
-    "name": "FinishedIntent",
-    "slots": [
-      {
-        "name": "Ending",
-        "type": "ENDINGS"
-      }
-    ]
-  },
-  {
     "name": "AlbumIntent",
     "slots": [
       {
