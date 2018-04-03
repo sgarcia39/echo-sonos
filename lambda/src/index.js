@@ -39,18 +39,18 @@ EchoSonos.prototype.onLaunch = function (launchRequest, session, response) {
     });
 }
 
-EchoSonos.prototype.setEchoId = function (context) {
-    if (context.System.device["deviceId"] !== undefined) {
-        EchoId = context.System.device.deviceId;
-    }
-}
-
 EchoSonos.prototype.interactiveMode = function () {
     currentState = states.INTERACTIVEMODE;
 }
 
 EchoSonos.prototype.normalMode = function () {
     currentState = states.NORMALMODE;
+}
+
+EchoSonos.prototype.setEchoId = function (context) {
+    if (context.System.device["deviceId"] !== undefined) {
+        EchoId = context.System.device.deviceId;
+    }
 }
 
 EchoSonos.prototype.intentHandlers = {
@@ -774,6 +774,36 @@ function getUrl(options) {
     return `${protocol}://${options.host}:${options.port}`;
 }
 
+function resolveSynonyms(event) {
+    let request = event.request;
+    if (request && 
+        request.intent && 
+        request.intent.slots) {
+        let slots = request.intent.slots;
+        let slotNames = Object.keys(slots);
+        for (let slotNamesIdx = 0; slotNamesIdx < slotNames.length; ++slotNamesIdx) {
+            let slotName = slotNames[slotNamesIdx];
+            let slot = slots[slotName];
+            if (slot.resolutions && 
+                slot.resolutions.resolutionsPerAuthority && 
+                slot.resolutions.resolutionsPerAuthority.length > 0) {
+                let slotResolution = slot.resolutions.resolutionsPerAuthority[0];
+                if (slotResolution.values && 
+                    slotResolution.values.length > 0) {
+                    let slotResolutionValue = slotResolution.values[0];
+                    if (slotResolutionValue.value &&
+                        slotResolutionValue.value.name) {
+                        console.log("Synonym found : Replacing '%s' with '%s'", slot.value, slotResolutionValue.value.name);
+                        slot.value = slotResolutionValue.value.name;
+                    }
+                }
+            }
+        }
+    }
+
+    return event;
+}
+
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
     // Create an instance of the EchoSonos skill.
@@ -790,7 +820,7 @@ exports.handler = function (event, context) {
     else {
         sonosProxy = sonosProxyFactory.get(getUrl(options), options);
     }
-    
 
+    event = resolveSynonyms(event);
     echoSonos.execute(event, context);
 };
